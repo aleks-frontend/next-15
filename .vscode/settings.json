@@ -20,7 +20,6 @@
   "editor.bracketPairColorization.enabled": true,
   "editor.guides.bracketPairs": "active",
   "editor.guides.indentation": true,
-  "editor.highlightActiveIndentGuide": true,
   "editor.matchBrackets": "always",
   "editor.renderWhitespace": "boundary",
   
@@ -62,14 +61,6 @@
       }
     ]
   },
-  
-  // 🎵 Sound Effects (if you like them!)
-  "audioCues.lineHasError": "on",
-  "audioCues.lineHasWarning": "on",
-  "audioCues.onDebugBreak": "on",
-  
-  // 🚀 Performance & Smoothness
-  "editor.lightbulb.enabled": true,
   "editor.codeLens": true,
   "editor.parameterHints.enabled": true,
   "editor.quickSuggestions": {
@@ -100,5 +91,15 @@
   "emmet.includeLanguages": {
     "javascript": "javascriptreact",
     "typescript": "typescriptreact"
-  }
+  },
+  "accessibility.signals.lineHasError": {
+    "sound": "on"
+  },
+  "accessibility.signals.lineHasWarning": {
+    "sound": "on"
+  },
+  "accessibility.signals.onDebugBreak": {
+    "sound": "on"
+  },
+  "editor.guides.highlightActiveIndentation": true
 }

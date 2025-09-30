@@ -37,16 +37,22 @@ const Home = () => {
               Profile
             </Link>
             <Link
-              href="/articles/article-1?lang=en"
+              href="/articles/article1?lang=en"
               className="px-6 py-3 bg-orange-500 hover:bg-orange-600 text-white font-semibold rounded-lg transition-colors duration-200 shadow-lg hover:shadow-xl"
             >
               Article in English
             </Link>
             <Link
-              href="/articles/article-1?lang=es"
+              href="/articles/article2?lang=es"
               className="px-6 py-3 bg-orange-500 hover:bg-orange-600 text-white font-semibold rounded-lg transition-colors duration-200 shadow-lg hover:shadow-xl"
             >
               Article in Spanish
+            </Link>
+            <Link
+              href="/order-product"
+              className="px-6 py-3 bg-orange-500 hover:bg-orange-600 text-white font-semibold rounded-lg transition-colors duration-200 shadow-lg hover:shadow-xl"
+            >
+              Order product
             </Link>
           </div>
         </div>
